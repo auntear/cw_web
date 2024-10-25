@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:my_cw_web/main/Home.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class IndexPage extends StatelessWidget {
+  const IndexPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                 },
                 child: const Text(
                   'ไปหน้าหลัก',
-                  style: TextStyle(fontSize: 24, color: Colors.black),
+                  style: TextStyle(fontSize: 24, color: Colors.white),
                 ),
               ),
             ),
