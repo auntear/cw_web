@@ -21,7 +21,7 @@ class LoginPageState extends State<LoginPage> {
       headers: {'Content-Type': 'application/json'},
       body: json.encode({'username': username, 'password': password}),
     );
-
+    if (!mounted) return;
     if (response.statusCode == 200) {
       setState(() {
         message = 'Login successful';
