@@ -139,7 +139,7 @@ class ManagePageState extends State<ManagePage> {
                 builder: (context) {
                   switch (selectedPage) {
                     case PageSelection.manageIMG:
-                      return const ManageIMG01();
+                      return ManageIMG01();
                     case PageSelection.manageIMG2:
                       return const ManageIMG02();
                     default:
